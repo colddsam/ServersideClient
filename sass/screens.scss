@@ -2,13 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
 
+
+html {
+    background-color: #7ED7C1;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
 body {
+    overflow: hidden;
     margin: 0px;
     padding: 0px;
-    width: 100vw;
-    height: 100vh;
+    width: 75vw;
+    height: auto;
     display: flex;
-    background-color: #7ED7C1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
